@@ -1,0 +1,9 @@
+llm:
+  gpt_4o_mini: gpt-4o-mini
+  temperature: 0.2
+
+retriever:
+  headers_to_split_on:
+    - ["#", "Header 1"]
+    - ["##", "Header 2"]
+  file_pth: "/Users/george/ai-projects/MultiAgenticRAG_Rep/papers/2310.08560v2.pdf"
